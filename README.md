@@ -6,6 +6,4 @@
     * pipenv shell <br />
     * python (this will open the python interpretor in your terminal) <br />
     * from app import db <br />
-    * db.create_all() <br /><br />
-    
-If you run into errors, make sure everything is installed and up to date.
+    * db.create_all() <br />
