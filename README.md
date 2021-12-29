@@ -41,7 +41,7 @@
 
 ### PUT (Update)
 - Use the following route for updating
-- localhost:5000/update-show-and-actor/(ID)
+   > localhost:5000/update-show-and-actor/*ID*
 - For this route you will need to make sure to specify which entry ID you are trying to modify
 - Have method set to PUT
    
