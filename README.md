@@ -7,3 +7,14 @@
     * python (this will open the python interpretor in your terminal) <br />
     * from app import db <br />
     * db.create_all() <br />
+    * exit() or ctrl + D to exit python interpretor
+    * python app.py (this will start up the server for the API)
+    * Open Postman application
+
+
+## Routes
+
+- Start by adding a new entry to the API <br />
+
+### POST (Add New)
+- 
