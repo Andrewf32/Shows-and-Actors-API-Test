@@ -29,7 +29,7 @@
     "show": "",
     "year_released": 0
 }
--------------------------------------
+
 {
     "actor_name": "Robert Downy Jr.",
     "character_name": "Tony Stark",
