@@ -63,10 +63,8 @@
 
 ### GET (all entries or single entry)
 - There are 2 separate routes for the GET route
-
 - GET All entries
 - localhost:5000/view-all-shows-and-actors
-
 - GET Single entry
 - localhost:5000/view-single-show-and-actor/(ID)
 - You will need to specify which entry ID you want to view
