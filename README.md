@@ -16,6 +16,7 @@
 
 - Start by adding a new entry to the API <br />
 
+
 ### POST (Add New)
 - In postman use the following route to add a new entry
 - localhost:5000/shows-and-actors
@@ -40,7 +41,7 @@
 
 ### PUT (Update)
 - Use the following route for updating
-- localhost:5000/update-show-and-actor/<id>
+- localhost:5000/update-show-and-actor/(ID)
 - For this route you will need to make sure to specify which entry ID you are trying to modify
 - Have method set to PUT
    
@@ -59,3 +60,19 @@
     "year_released": 2018
 }
 ```
+
+### GET (all entries or single entry)
+- There are 2 separate routes for the GET route
+
+- GET All entries
+- localhost:5000/view-all-shows-and-actors
+
+- GET Single entry
+- localhost:5000/view-single-show-and-actor/(ID)
+- You will need to specify which entry ID you want to view
+
+
+### DELETE (remove a single entry)
+- Use the following to delete an entry
+- localhost:5000/delete-show-and-actor/(ID)
+- You will need to specify which entry ID you want to delete
