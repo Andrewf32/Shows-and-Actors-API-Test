@@ -41,6 +41,21 @@
 ### PUT (Update)
 - Use the following route for updating
 - localhost:5000/update-show-and-actor/<id>
-- For this route you will need to make sure to specify which entry ID you are trying to modify. <br />
-- Have method set to PUT <br />
+- For this route you will need to make sure to specify which entry ID you are trying to modify
+- Have method set to PUT
    
+```json
+{
+    "actor_name": "Robert Downy Jr.",
+    "character_name": "Tony Stark",
+    "show": "Iron Man",
+    "year_released": 2008
+}
+
+{
+    "actor_name": "Robert Downy Jr.",
+    "character_name": "Tony Stark",
+    "show": "Avengers, Inifity War",
+    "year_released": 2018
+}
+```
