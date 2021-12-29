@@ -24,17 +24,17 @@
 
 ```json
 {
-    "actor_name": "Robert Downy Jr.",
-    "character_name": "Tony Stark",
-    "show": "Iron Man",
-    "year_released": 2008
-}
-
-{
     "actor_name": "",
     "character_name": "",
     "show": "",
     "year_released": 0
+}
+-------------------------------------
+{
+    "actor_name": "Robert Downy Jr.",
+    "character_name": "Tony Stark",
+    "show": "Iron Man",
+    "year_released": 2008
 }
 ```
 
