@@ -6,12 +6,10 @@ def add_show():
     title = request.json['title']
     year_released = request.json['year_released']
 
-    record = Shows(actor_name, character_name, show, year_released)
+    record = Shows(actor_name, character_name, title, year_released)
 
     db.session.add(record)
     db.session.commit()
-
-    # sh = Shows.query.get(record.id)
 
     return show_schema.jsonify(record)
 
