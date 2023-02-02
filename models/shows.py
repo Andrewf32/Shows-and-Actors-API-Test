@@ -14,7 +14,7 @@ class Shows(db.Model):
         self.year_released = year_released
 
 
-class titlesSchema(ma.Schema):
+class ShowsSchema(ma.Schema):
     class Meta:
         fields = ('actor_name', 'character_name', 'show', 'year_released')
 
